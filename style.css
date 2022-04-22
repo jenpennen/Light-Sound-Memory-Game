@@ -1,0 +1,125 @@
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #1A5276;
+  color: white; /*#82b5a2; /* Eton Blue*/
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  color: yellow;
+}
+
+p {
+  color : yellow;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white ;
+  
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+  padding: 15px;
+  border-radius: 10px;
+}
+/* be able to hide other elements by applying the hidden class without having to write more CSS*/
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button1:active,
+#button1.lit {
+  background: green;
+  /* shooky*/
+  background-image: url(https://cdn.glitch.global/6e0a4ded-7457-48b5-a24e-5e37af709fdf/zzzzzz.jpg?v=1650489435319);
+  background-position: center;
+
+}
+
+#button2 {
+  background: lightblue;
+}
+#button2:active,
+#button2.lit {
+  /*koya*/
+  background-image: url(https://cdn.glitch.global/6e0a4ded-7457-48b5-a24e-5e37af709fdf/zzzzz.jpg?v=1650489443463);
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+#button3 {
+  background: pink;
+}
+#button3:active,
+#button3.lit {
+  /*cooky*/
+  background-image: url(https://cdn.glitch.global/6e0a4ded-7457-48b5-a24e-5e37af709fdf/zzz.jpg?v=1650489451595);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+#button4 {
+  background: lightyellow;
+}
+#button4:active,
+#button4.lit {
+  /*chimmy*/
+  background-image: url(https://cdn.glitch.global/6e0a4ded-7457-48b5-a24e-5e37af709fdf/zz.jpg?v=1650489457234);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+#button5 {
+  background: #bb91f3;
+}
+#button5:active,
+#button5.lit {
+  /*tata*/
+  background-image: url(https://cdn.glitch.global/6e0a4ded-7457-48b5-a24e-5e37af709fdf/zzzz.jpg?v=1650489454261);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#button6 {
+  background: #e59866;
+}
+#button6:active,
+#button6.lit {
+  /*RJ (sheep)*/
+  background-image: url(https://cdn.glitch.global/6e0a4ded-7457-48b5-a24e-5e37af709fdf/z.jpg?v=1650489439703);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#button7 {
+  background: #f75103;
+}
+#button7:active,
+#button7.lit {
+  /*Mang*/
+  background-image: url(https://cdn.glitch.global/6e0a4ded-7457-48b5-a24e-5e37af709fdf/zzzzzzz.jpg?v=1650491477875);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+button > img {
+  display: none;
+}
+
+button > img.pressed {
+  display: inline;
+  width: 100px;
+  position: inline;
+}
