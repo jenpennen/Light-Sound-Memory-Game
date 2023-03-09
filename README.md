@@ -1,6 +1,6 @@
 # BTS Light and Sound Memory Game
 
-**Memory Game** is a Light & Sound Memory game. 
+This is a **Memory Game** in which you must follow the sequences of buttons clicked correctly by the game.
 
 Link to project: (https://glitch.com/~lightmemory-game)
 
